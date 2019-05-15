@@ -1,4 +1,4 @@
-Go ahead and browse the IDE at https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com/.
+Go ahead and browse the IDE at https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com/. Password is `katacoda`.
 
 if you have any services running in other ports, you may browse https://[[HOST_SUBDOMAIN]]-[[KATACODA_HOST]].environments.katacoda.com/ and select the port on where the service runs.
 
