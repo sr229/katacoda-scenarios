@@ -4,20 +4,14 @@
   "difficulty": "expert",
   "time": "10 minutes",
   "details": {
-    "assets": {
-      "host01" : {
-        "file": "prerun/exec.sh",
-        "target": "~/",
-        "chmod": "+x"
-      }
-    },
     "steps": [{
       "title": "Step 1 - Run Command",
       "text": "step1.md"
     }],
     "intro": {
       "text": "intro.md",
-      "credits": ""
+      "credits": "",
+      "courseData": "startEnv.sh"
     },
     "finish": {
       "text": "finish.md"
