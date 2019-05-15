@@ -4,6 +4,15 @@
   "difficulty": "Expert",
   "time": "10 minutes",
   "details": {
+    "assets": {
+      "host0": [
+        {
+          "file": "startEnv.sh",
+          "target": "~/",
+          "chmod": "+x"
+        }
+      ]
+    },
     "steps": [{
       "title": "Quick Notes",
       "text": "step1.md"
@@ -18,12 +27,10 @@
     }
   },
   "environment": {
-    "uilayout": "terminal-terminal",
+    "uilayout": "terminal",
     "dashboards": [{ "name": "App", "port": 3000 }],
     "icon": "fa-linux",
-    "showdashboard": "true",
-    "dashboard": "Dashboard",
-    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart code-server using `startEnv.sh`\u001b[m\r\n"
   },
   "backend": {
     "imageid": "ubuntu"
