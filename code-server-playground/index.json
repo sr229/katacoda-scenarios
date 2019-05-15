@@ -5,7 +5,7 @@
   "time": "10 minutes",
   "details": {
     "assets": {
-      "host0": [
+      "host01": [
         {
           "file": "startEnv.sh",
           "target": "~/",
@@ -28,8 +28,8 @@
   },
   "environment": {
     "uilayout": "terminal",
-    "dashboards": [{ "name": "App", "port": 3000 }],
-    "icon": "fa-linux",
+    "dashboards": [{ "name": "App", "port": 3000, "host": "host01" }],
+    "icon": "fa-runc",
     "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart code-server using `startEnv.sh` if the port doesn't work.\u001b[m\r\n"
   },
   "backend": {
