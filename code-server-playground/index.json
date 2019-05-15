@@ -19,7 +19,7 @@
   },
   "environment": {
     "uilayout": "terminal-terminal",
-    "dashboards": [{ "name": "App", "port": 3000, "host": "host01" }],
+    "dashboards": [{ "name": "App", "port": 3000 }],
     "icon": "fa-linux",
     "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
   },
