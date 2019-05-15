@@ -30,7 +30,7 @@
     "uilayout": "terminal",
     "dashboards": [{ "name": "App", "port": 3000 }],
     "icon": "fa-linux",
-    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart code-server using `startEnv.sh`\u001b[m\r\n"
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart code-server using `startEnv.sh` if the port doesn't work.\u001b[m\r\n"
   },
   "backend": {
     "imageid": "ubuntu"
