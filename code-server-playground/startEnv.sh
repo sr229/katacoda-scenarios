@@ -8,6 +8,8 @@ if [ ! -f "/usr/bin/wget"  ];
   sudo apt-get install wget
 fi
 
+cd $HOME
+
 # for maintainers: please use ONLY the stable latest versions.
 
 coder_version="1.939-vsc1.33.1"

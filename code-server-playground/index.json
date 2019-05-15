@@ -1,7 +1,7 @@
 {
   "title": "code-server Playground",
   "description": "A playground for you to explore code-server, a port of the famous Visual Studio Code for cloud-based development.",
-  "difficulty": "expert",
+  "difficulty": "Expert",
   "time": "10 minutes",
   "details": {
     "steps": [{
@@ -21,6 +21,8 @@
     "uilayout": "terminal-terminal",
     "dashboards": [{ "name": "App", "port": 3000 }],
     "icon": "fa-linux",
+    "showdashboard": "true",
+    "dashboard": "Dashboard",
     "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
   },
   "backend": {
