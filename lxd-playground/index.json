@@ -1,0 +1,60 @@
+{
+  "title": "Linux Containers (LXD) Guided Playground",
+  "description": "A playground to explore LXD, a container implementation that uses cgroups and namespaces, same as docker but built to handle unmodified rootfses and images.",
+  "difficulty": "Expert",
+  "time": "10 minutes",
+  "details": {
+    "assets": {
+      "host01": [
+        {
+          "file": "startEnv.sh",
+          "target": "~/",
+          "chmod": "+x"
+        }
+      ]
+    },
+    "steps": [
+      {
+      "title": "Welcome!",
+      "text": "step1.md"
+      },
+      {
+        "title": "Pulling a image",
+        "text": "step2.md"
+      },
+      {
+        "title": "Go inside!",
+        "text": "step3.md"
+      },
+      {
+        "title": "Checking your containers",
+        "text": "step4.md"
+      },
+      {
+        "title": "Let's make your container different",
+        "text": "step5.md"
+      },
+      {
+        "title": "Clean up!",
+        "text": "step6.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": "",
+      "courseData": "startEnv.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "dashboards": [{ "name": "App", "port": 3000, "host": "host01" }],
+    "icon": "fa-runc",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart code-server using `startEnv.sh` if the port doesn't work.\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
