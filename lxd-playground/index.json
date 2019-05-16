@@ -15,8 +15,8 @@
     },
     "steps": [
       {
-      "title": "Welcome!",
-      "text": "step1.md"
+        "title": "Welcome!",
+        "text": "step1.md"
       },
       {
         "title": "Pulling a image",
