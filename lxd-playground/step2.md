@@ -1,5 +1,5 @@
 
-Let's pull your first containers. Containers in LXD are the same as Docker, except LXD uses *unmodified* images, contrary to Docker. What does this mean you may ask? It means a LXD container can run a full system in a container, no holds barred.
+Let's pull your first container. Containers in LXD are the same as Docker, except LXD uses *unmodified* images, contrary to Docker. What does this mean you may ask? It means a LXD container can run a full system in a container, no holds barred.
 
 
 To pull a new image in LXD, simply run:
