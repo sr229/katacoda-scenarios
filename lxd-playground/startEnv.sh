@@ -2,8 +2,7 @@
 
 echo "Running setup, this may take a while.";
 
-# Ubuntu might not have net-tools, so we'll install it
-snap install lxd --classic
+apt update && apt -y install lxd
 
 # cuRL is a massive b*tch sometimes so we'll use wget
 
