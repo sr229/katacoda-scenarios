@@ -1,8 +1,8 @@
 {
   "title": "Linux Containers (LXD) Guided Playground",
-  "description": "A playground to explore LXD, a container implementation that uses cgroups and namespaces, same as docker but built to handle unmodified rootfses and images.",
-  "difficulty": "Expert",
-  "time": "10 minutes",
+  "description": "A playground to explore LXD, a container system that predates Docker.",
+  "difficulty": "beginner",
+  "time": "50 minutes",
   "details": {
     "assets": {
       "host01": [
