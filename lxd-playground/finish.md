@@ -1,7 +1,5 @@
-Thank you for using the playground.
+Thank you for using the playground, I hope you had a fun time learnning about LXD.
 
-As always, if you find any errors regarding the playground, please open an [issue](https://github.com/sr229/katacoda-scenarios/issues/new).
+Your LXD learning journey doesn't end here. I suggest you go to the [website](https://linuxcontainers.org) to discover more about LXD.
 
-If you find any issues with `code-server`, let the developers know at the [project repository](https://github.com/cdr/code-server/issues/new).
-
-See you again!
+See you soon!
