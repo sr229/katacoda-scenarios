@@ -6,4 +6,4 @@ Unlike Docker, LXD can run unmodified rootfses and images, meaning, it can run a
 
 This playground is intended for you to get acquainted of LXD, feel free to learn at your own pace, and discover something new.
 
-If you want to learn more, check out their [website!](https://linuxcontainers.org).
+If you want to learn more, check out their [website!](https://linuxcontainers.org)
