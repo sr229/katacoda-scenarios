@@ -6,7 +6,7 @@ Let's make your container run docker by doing this simple flag:
 
 You can also pass the same configuration when creating a new container to make your life easier:
 
-`launch ubuntu c1-with-nesting-on -c security.nesting=true` {{execute}}
+`launch ubuntu c1-with-nesting-on -c security.nesting=true`{{execute}}
 
 `security.nesting` is a flag to allow containers in LXD to run nested cgroups. This is essential for Docker since they use cgroups as well (remember, Docker also has a shared history with LXD).
 
