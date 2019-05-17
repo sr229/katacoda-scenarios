@@ -2,7 +2,7 @@
 
 echo "Running setup, this may take a while.";
 
-apt update && apt -y install lxd
+snap install lxd
 
 cat <<EOF | lxd init --preseed
 config:
