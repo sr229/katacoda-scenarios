@@ -1,25 +1,16 @@
 {
   "title": "code-server Playground",
   "description": "A playground for you to explore code-server, a port of the famous Visual Studio Code for cloud-based development.",
-  "difficulty": "Expert",
+  "difficulty": "expert",
   "time": "10 minutes",
   "details": {
-    "assets": {
-      "host01": [
-        {
-          "file": "startEnv.sh",
-          "target": "~/",
-          "chmod": "+x"
-        }
-      ]
-    },
     "steps": [{
       "title": "Quick Notes",
       "text": "step1.md"
     }],
     "intro": {
       "text": "intro.md",
-      "credits": "",
+      "credits": "https://coder.com",
       "courseData": "startEnv.sh"
     },
     "finish": {
@@ -30,7 +21,7 @@
     "uilayout": "terminal",
     "dashboards": [{ "name": "App", "port": 3000, "host": "host01" }],
     "icon": "fa-runc",
-    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart code-server using `startEnv.sh` if the port doesn't work.\u001b[m\r\n"
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\ncode-server should start shortly.\u001b[m\r\n"
   },
   "backend": {
     "imageid": "ubuntu"

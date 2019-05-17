@@ -4,15 +4,6 @@
   "difficulty": "beginner",
   "time": "50 minutes",
   "details": {
-    "assets": {
-      "host01": [
-        {
-          "file": "startEnv.sh",
-          "target": "~/",
-          "chmod": "+x"
-        }
-      ]
-    },
     "steps": [
       {
         "title": "Welcome!",
@@ -41,7 +32,7 @@
     ],
     "intro": {
       "text": "intro.md",
-      "credits": "",
+      "credits": "https://linuxcontainers.org",
       "courseData": "startEnv.sh"
     },
     "finish": {
