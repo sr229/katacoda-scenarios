@@ -13,3 +13,7 @@ You can also pass the same configuration when creating a new container to make y
 To know all the configuration flags for the containers, consult the documentation for LXD or the manpages.
 
 Now with the security flag checked, go ahead and try to run Docker inside `katacoda`!
+
+_(PS: make sure you have wget installed before running this!)_
+
+`wget -qO - https://get.docker.com | sh`{{execute}}
