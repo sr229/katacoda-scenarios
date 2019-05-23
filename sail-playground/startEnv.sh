@@ -8,12 +8,8 @@ sail_version="v1.0.1"
 
 wget -qO - https://github.com/cdr/sail/releases/download/$sail_version/sail-linux-amd64.tar | tar -xv
 
-cd sail-linux-amd64 && \
-   chmod -R 755 sail && \
-   cp -vRf ./sail /usr/bin;
-cd ..
-
-rm -rf sail-linux-amd64;
+chmod -R 755 sail && \
+mv ./sail /usr/bin;
 
 
 
