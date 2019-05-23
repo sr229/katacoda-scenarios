@@ -28,8 +28,8 @@
     ],
     "intro": {
       "text": "intro.md",
-      "credits": "https://linuxcontainers.org",
-      "courseData": "startEnv.sh"
+      "credits": "https://sail.dev",
+      "code": "startEnv.sh"
     },
     "finish": {
       "text": "finish.md"
@@ -39,7 +39,7 @@
     "uilayout": "terminal",
     "dashboards": [{ "name": "App", "port": 3000, "host": "host01" }],
     "icon": "fa-runc",
-    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nGo ahead and run `lxd init` to start LXD.\u001b[m\r\n"
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nRun a project with sail run <git url>.\u001b[m\r\n"
   },
   "backend": {
     "imageid": "ubuntu"
