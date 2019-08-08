@@ -10,7 +10,7 @@ NODE_ARGS="--jitless --max-semi-space-size=1 --max-old-space-size=128 --max-exec
 
 coder_version="2.preview.1-vsc1.36.1"
 
-wget -O bin.tgz "https://github.com/cdr/code-server/releases/download/${coder_version}/code-server${coder_version}-linux-x64.tar.gz" && \
+wget -O bin.tgz "https://github.com/cdr/code-server/releases/download/${coder_version}/code-server${coder_version}-linux-x86_64.tar.gz" && \
      tar -xzvf bin.tgz && \
      cd code-server$coder_version-linux-x64/ && \
      rm -rf bin.tgz && \
