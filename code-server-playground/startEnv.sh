@@ -15,5 +15,5 @@ wget -O bin.tgz "https://github.com/cdr/code-server/releases/download/${coder_ve
      cd code-server$coder_version-linux-x86_64/ && \
      rm -rf bin.tgz && \
      chmod +x code-server && \
-     NODE_ARGS="$NODE_ARGS" PASSWORD=katacoda ./code-server --auth=password --port=3000 /root/projects
+     NODE_ARGS="$NODE_ARGS" PASSWORD=katacoda ./code-server --auth=password --port=3000 --host=0.0.0.0 /root/projects
  
