@@ -12,7 +12,7 @@ coder_version="2.preview.1-vsc1.36.1"
 
 wget -O bin.tgz "https://github.com/cdr/code-server/releases/download/${coder_version}/code-server${coder_version}-linux-x86_64.tar.gz" && \
      tar -xzvf bin.tgz && \
-     cd code-server$coder_version-linux-x64/ && \
+     cd code-server$coder_version-linux-x86_64/ && \
      rm -rf bin.tgz && \
      chmod +x code-server && \
      NODE_ARGS="$NODE_ARGS" PASSWORD=katacoda ./code-server --auth=password --port=3000 /root/projects
