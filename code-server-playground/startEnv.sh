@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -eo pipefail
+
 if [ ! -f "/usr/bin/wget"  ]; then
   sudo apt-get -y install wget
 fi

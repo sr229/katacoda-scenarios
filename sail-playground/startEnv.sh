@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -eo pipefail
+
 echo "Running setup, this may take a while.";
 
 
