@@ -6,7 +6,6 @@ snap install lxd
 
 cat <<EOF | lxd init --preseed
 config:
-  core.https_address: 192.168.1.1:9999
   images.auto_update_interval: 15
 networks:
 - name: lxdbr0
