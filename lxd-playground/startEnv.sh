@@ -4,7 +4,7 @@ set -eo pipefail
 
 echo "Running setup, this may take a while.";
 
-snap install lxd
+apt install -y lxd lxd-client
 
 cat <<EOF | lxd init --preseed
 config:
