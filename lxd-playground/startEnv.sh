@@ -27,7 +27,7 @@ profiles:
     eth0:
       name: eth0
       nictype: bridged
-      parent: lxdbr1
+      parent: lxdbr0
       type: nic
     root:
       path: /

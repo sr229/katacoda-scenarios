@@ -43,7 +43,7 @@
     "uilayout": "terminal",
     "dashboards": [{ "name": "App", "port": 3000, "host": "host01" }],
     "icon": "fa-runc",
-    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nGo ahead and run `lxd init` to start LXD.\u001b[m\r\n"
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nLXD will be automatically configured.\u001b[m\r\n"
   },
   "backend": {
     "imageid": "ubuntu"
