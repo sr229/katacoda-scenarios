@@ -20,6 +20,6 @@ mkdir scratchpad
 #     chmod +x code-server && \
 #     NODE_ARGS="$NODE_ARGS" PASSWORD=katacoda ./code-server --auth=password --port=3000 --host=0.0.0.0 /root/projects
 
-wget -O - https://git.io/fjAJC | tar -xvz && \
+wget -O - https://git.io/JeR7E | tar -xvz && \
     cd code-server* && \
     PASSWORD=katacoda ./code-server --auth=password --port=3000 --host=0.0.0.0 /root/scratchpad
