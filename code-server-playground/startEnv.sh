@@ -15,6 +15,5 @@ curl -fsSL https://code-server.dev/install.sh | sh && \
   PASSWORD=killercoda $(which code-server) \
     --auth=password \
     --bind-addr=0.0.0.0:3000 \
-    --enable-proposed-api \
     --app-name "code-server on Killercoda" \
     /root/scratchpad

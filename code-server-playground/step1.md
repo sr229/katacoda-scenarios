@@ -1,4 +1,4 @@
-Go ahead and browse the IDE at {{TRAFFIC_HOST1_3000}}. Password is `killercoda`.
+Go ahead and browse the IDE at {{TRAFFIC_HOST1_3000}}. Password is `killercoda`. Please wait for the environment to set itself up properly (check the terminal, you should see if the server is up!)
 
 We use ubuntu for this environment, so if you want to install something like build tools, you may use APT:
 
