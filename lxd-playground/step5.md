@@ -16,4 +16,6 @@ Now with the security flag checked, go ahead and try to run Docker inside `katac
 
 _(PS: make sure you have wget installed before running this!)_
 
+`lxc exec killercoda -- /bin/bash`{{execute}}
+
 `wget -O - https://get.docker.com | sh`{{execute}}

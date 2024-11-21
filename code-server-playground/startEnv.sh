@@ -8,18 +8,12 @@ fi
 
 mkdir scratchpad
 
-# for maintainers: please use ONLY the stable latest versions.
+sed 's/PORT/3000/g' /etc/killercoda/host
 
-# coder_version="2.preview.1-vsc1.36.1"
-
-# Disabled cdr builds for now because official releases are broken
-# wget -O bin.tgz "https://github.com/cdr/code-server/releases/download/${coder_version}/code-server${coder_version}-linux-x86_64.tar.gz" && \
-#     tar -xzvf bin.tgz && \
-#     cd code-server$coder_version-linux-x86_64/ && \
-#     rm -rf bin.tgz && \
-#     chmod +x code-server && \
-#     NODE_ARGS="$NODE_ARGS" PASSWORD=katacoda ./code-server --auth=password --port=3000 --host=0.0.0.0 /root/projects
-
-wget -O - https://git.io/JeR7E | tar -xvz && \
-    cd code-server* && \
-    PASSWORD=katacoda ./code-server --auth=password --port=3000 --host=0.0.0.0 /root/scratchpad
+curl -fsSL https://code-server.dev/install.sh | sh && \
+  clear && \
+  PASSWORD=killercoda ./code-server \
+    --auth=password \
+    --bind-addr=0.0.0.0:3000 \
+    --enable-proposed-api \
+    /root/scratchpad
