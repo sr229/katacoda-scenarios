@@ -1,6 +1,4 @@
-Go ahead and browse the IDE at {{TRAFFIC_HOST1_80}}. Password is `killercoda`.
-
-if you have any services running in other ports, you may browse https://[[HOST_SUBDOMAIN]]-[[KATACODA_HOST]].environments.katacoda.com/ and select the port on where the service runs.
+Go ahead and browse the IDE at {{TRAFFIC_HOST1_3000}}. Password is `killercoda`.
 
 We use ubuntu for this environment, so if you want to install something like build tools, you may use APT:
 
