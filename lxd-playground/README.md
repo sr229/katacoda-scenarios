@@ -1,6 +1,6 @@
-# LXD Playground
+# LXD Guided Tutorial
 
-This is a playground intended for learning Linux Containers (LXC). A precursor of Docker and what Docker used to use before making its own runtime, named `containerd`.
+This is a guided tutorial intended for learning Linux Containers (LXC), a way to run multiple Linux environments without additional configuration. It is popularly known that Docker used it as an execution environment before moving to what we now know and love as `containerd`.
 
 
 ## What to expect

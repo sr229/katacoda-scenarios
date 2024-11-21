@@ -2,7 +2,7 @@ LXD allows you to modify the container to make your container run special softwa
 
 Let's make your container run docker by doing this simple flag:
 
-`lxc config set katacoda security.nesting true`{{execute}}
+`lxc config set killercoda security.nesting true`{{execute}}
 
 You can also pass the same configuration when creating a new container to make your life easier:
 

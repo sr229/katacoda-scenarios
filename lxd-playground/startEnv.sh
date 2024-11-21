@@ -36,3 +36,5 @@ profiles:
   name: default
 cluster: null
 EOF
+
+clear
