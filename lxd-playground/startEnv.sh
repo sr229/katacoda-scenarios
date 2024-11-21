@@ -1,5 +1,3 @@
-#!/bin/sh
-
 set -eo pipefail
 
 snap install lxd
@@ -39,10 +37,7 @@ EOF
 
 # BUG: lxd uses some legacy rules that needs to be flushed.
 # https://discuss.linuxcontainers.org/t/containers-do-not-have-outgoing-internet-access/10844/3
-for ipt in iptables iptables-legacy ip6tables ip6tables-legacy; do 
-  $ipt --flush; $ipt --flush -t nat; $ipt --delete-chain; $ipt --delete-chain -t nat; $ipt -P FORWARD ACCEPT; $ipt -P INPUT ACCEPT; $ipt -P OUTPUT ACCEPT; 
-done
-
+for ipt in iptables iptables-legacy ip6tables ip6tables-legacy; do $ipt --flush; $ipt --flush -t nat; $ipt --delete-chain; $ipt --delete-chain -t nat; $ipt -P FORWARD ACCEPT; $ipt -P INPUT ACCEPT; $ipt -P OUTPUT ACCEPT; done
 systemctl reload snap.lxd.daemon
 
 clear
