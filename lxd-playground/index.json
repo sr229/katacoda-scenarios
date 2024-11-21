@@ -1,6 +1,6 @@
 {
   "title": "Linux Containers (LXD) Guided Playground",
-  "description": "A playground to explore LXD, a container system that predates Docker.",
+  "description": "A playground to explore LXD, a userspace system for contained Linux systems.",
   "difficulty": "beginner",
   "time": "50 minutes",
   "details": {
