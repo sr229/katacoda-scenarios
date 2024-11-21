@@ -12,7 +12,7 @@ sed 's/PORT/3000/g' /etc/killercoda/host
 
 curl -fsSL https://code-server.dev/install.sh | sh && \
   clear && \
-  PASSWORD=killercoda ./code-server \
+  PASSWORD=killercoda $(which code-server) \
     --auth=password \
     --bind-addr=0.0.0.0:3000 \
     --enable-proposed-api \
