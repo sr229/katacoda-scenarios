@@ -4,12 +4,12 @@ Let's create your first instance. Containers in LXD are the same as Docker, exce
 
 To pull a new image in LXD, simply run:
 
-`lxc launch images:rockylinux/9 killercoda`{{execute}}
+`lxc launch images:opensuse/tumbleweed killercoda`{{execute}}
 
 where:
 
  - `launch` is of course the pull and run command, you have two commands in one!
- - `images:rockylinux/9` is the image with the remote included. This is slightly different to what you're used to with Docker.
+ - `images:opensuse/tumbleweed` is the image with the remote included (where `images:` is the remote and `opensuse/tumbleweed` the image with the version). This is slightly different to what you're used to with Docker.
  - `killercoda` is the name of the instance.
 
  You can swap out the image with your preferred one if you wish! You can look through [LXD's official image list](https://images.lxd.canonical.com/) or [provide your own](https://documentation.ubuntu.com/lxd/en/latest/howto/images_remote/).
