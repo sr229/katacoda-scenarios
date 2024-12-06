@@ -1,7 +1,7 @@
 #!/bin/bash
 
-prometheus_url="http://localhost:9090"
-grafana_url="http://localhost:3000"
+prometheus_url="http://localhost:9090/-/healthy"
+grafana_url="http://localhost:3000/api/health"
 timeout=10
 
 echo "Setting up Prometheus in the background, this shell will be unusable until everything has been fully set up"
