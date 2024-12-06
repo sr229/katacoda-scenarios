@@ -1,5 +1,6 @@
 {
     "title": "Prometheus + Grafana Playground",
+    "description": "A playground to explore Grafana and Prometheus observability platforms.",
     "details": {
         "intro": {
             "text": "intro.md",
