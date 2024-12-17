@@ -5,7 +5,7 @@ timeout=10
 echo "Setting up Splunk in the background, this shell will be unusable until everything has been fully set up"
 
 while true; do
-    if [[ -n $(docker ps -a -q -f name="splunk") ]];
+    if [[ -n $(docker ps -a -q -f name="splunk") ]]; then 
         break
     else
         sleep $timeout
