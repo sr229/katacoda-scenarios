@@ -10,7 +10,7 @@ while true; do
     prometheus_response_code=$(curl -s -o /dev/null -w "%{http_code}" "$prometheus_url")
     grafana_response_code=$(curl -s -o /dev/null -w "%{http_code}" "$grafana_url")
 
-    if [[ $prometheus_response_code -eq 200 ]] then
+    if [[ $prometheus_response_code -eq 200 ]]; then
         echo "Prometheus is ready!"
         break
     else
