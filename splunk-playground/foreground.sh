@@ -1,14 +1,13 @@
 #!/bin/bash
 
-splunk_url="http://localhost:8000"
 timeout=10
 
 echo "Setting up Splunk in the background, this shell will be unusable until everything has been fully set up"
 
 while true; do
-    splunk_response_code=$(curl -s -o /dev/null -w "%{http_code}" "$splunk_url")
+    splunk_state=$(docker exec splunk /bin/bash -c "cat /opt/container_artifact/splunk-container.state")
 
-    if [[ $splunk_response_code -eq 200 ]]; then
+    if [[ $splunk_state -eq "started" ]]; then
         echo "Splunk is ready!"
         break
     else
