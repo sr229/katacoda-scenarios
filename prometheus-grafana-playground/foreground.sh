@@ -10,11 +10,19 @@ while true; do
     prometheus_response_code=$(curl -s -o /dev/null -w "%{http_code}" "$prometheus_url")
     grafana_response_code=$(curl -s -o /dev/null -w "%{http_code}" "$grafana_url")
 
-    if [[ $prometheus_response_code -eq 200 ]] && [[ $grafana_response_code -eq 200 ]]; then
-        echo "Prometheus and Grafana are ready!"
+    if [[ $prometheus_response_code -eq 200 ]] then
+        echo "Prometheus is ready!"
         break
     else
         echo "Waiting for Prometheus and Grafana ..."
+        sleep $timeout
+    fi
+
+    if [[ $grafana_response_code -eq 200 ]]; then
+        echo "Grafana is ready!"
+        break
+    else 
+        echo "Waiting for Grafana ..."
         sleep $timeout
     fi
 done
