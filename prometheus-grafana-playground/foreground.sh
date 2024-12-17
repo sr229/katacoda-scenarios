@@ -14,7 +14,7 @@ while true; do
         echo "Prometheus is ready!"
         break
     else
-        echo "Waiting for Prometheus and Grafana ..."
+        echo "Waiting for Prometheus ..."
         sleep $timeout
     fi
 
