@@ -8,7 +8,6 @@ echo "Setting up Prometheus in the background, this shell will be unusable until
 
 while true; do
     prometheus_response_code=$(curl -s -o /dev/null -w "%{http_code}" "$prometheus_url")
-    grafana_response_code=$(curl -s -o /dev/null -w "%{http_code}" "$grafana_url")
 
     if [[ $prometheus_response_code -eq 200 ]]; then
         echo "Prometheus is ready!"
@@ -17,7 +16,11 @@ while true; do
         echo "Waiting for Prometheus ..."
         sleep $timeout
     fi
+done
 
+while true; do
+    grafana_response_code=$(curl -s -o /dev/null -w "%{http_code}" "$grafana_url")
+    
     if [[ $grafana_response_code -eq 200 ]]; then
         echo "Grafana is ready!"
         break
@@ -25,4 +28,4 @@ while true; do
         echo "Waiting for Grafana ..."
         sleep $timeout
     fi
-done
+fi 

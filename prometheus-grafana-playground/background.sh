@@ -3,7 +3,7 @@
 
 ### RUN PROMETHEUS
 mkdir /etc/prometheus
-touch prometheus.yml
+touch /etc/prometheus/prometheus.yml
 docker run \
     -d \
     -p 9090:9090 \
