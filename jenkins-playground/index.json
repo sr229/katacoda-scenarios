@@ -1,0 +1,17 @@
+{
+    "title": "Jenkins Playground",
+    "description": "A playground to explore Jenkins CI/CD",
+    "details": {
+        "intro": {
+            "text": "intro.md",
+            "foreground": "foreground.sh",
+            "background": "background.sh"
+        },
+        "finish": {
+            "text": "finish.md"
+        }
+    },
+    "backend": {
+        "imageid": "ubuntu"
+    }
+}   
